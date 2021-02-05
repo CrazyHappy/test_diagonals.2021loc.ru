@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+Options +SymLinksIfOwnerMatch
+RewriteEngine On
+RewriteRule ^(.*)$ /public/$1 [L]
